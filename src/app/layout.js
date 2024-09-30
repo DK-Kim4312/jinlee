@@ -43,7 +43,6 @@ export default function RootLayout({ children }) {
             </ul>
           </nav>
           <div className="content-area">
-
             {children}
           </div>
         </div>
