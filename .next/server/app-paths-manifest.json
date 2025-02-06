@@ -4,5 +4,6 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/work1/page": "app/work1/page.js",
   "/work3/page": "app/work3/page.js",
-  "/work2/page": "app/work2/page.js"
+  "/work2/page": "app/work2/page.js",
+  "/work4/page": "app/work4/page.js"
 }

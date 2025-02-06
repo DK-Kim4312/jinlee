@@ -7,10 +7,18 @@ const numButtons = colors.length;
 
 export default function Home() {
   const radius = 100; // Adjust this value to control the circle size
+  
+  function getWorkNumber(index) {
+    if(index === 0 ) {
+      return 5;
+    } else {
+      return index;
+    }
+  }
 
   return (
     <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <div>
+      <div className="mb-16">
         <Typography variant="h1">Jin Lee</Typography>
       </div>
       <Box
@@ -30,7 +38,7 @@ export default function Home() {
               <Button
                 key={index}
                 component={Link}
-                href={index === 0 ? "/" : `/work${index}`}
+                href={`/work${getWorkNumber(index)}`}
                 sx={{
                   position: 'absolute',
                   top: `${y}px`,
