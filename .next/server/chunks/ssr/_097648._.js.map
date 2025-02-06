@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/kimdo/Documents/GitHub/jinlee/src/components/ImageHolder.js"],"sourcesContent":["import Image from \"next/image\";\nimport { Stack, Typography } from \"@mui/material\";\nimport Link from \"next/link\";\n\n\nexport default function ImageHolder(props) {\n    console.log(props);\n  return (\n    <Stack>\n      <Image\n        src={props.source}\n        placeholder=\"blur\"\n        alt=\"placeholder\"\n        blurDataURL=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII=\"\n        width={500}\n        height={500}\n      />\n      {/* Text For Description */}\n      <Stack>\n        <Typography variant=\"p\">Description</Typography>\n      </Stack>\n    </Stack>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AAEA;AADA;AAAA;;;;;AAIe,SAAS,YAAY,KAAK;IACrC,QAAQ,GAAG,CAAC;IACd,qBACE,8OAAC,uLAAA,CAAA,QAAK;;0BACJ,8OAAC,6HAAA,CAAA,UAAK;gBACJ,KAAK,MAAM,MAAM;gBACjB,aAAY;gBACZ,KAAI;gBACJ,aAAY;gBACZ,OAAO;gBACP,QAAQ;;;;;;0BAGV,8OAAC,uLAAA,CAAA,QAAK;0BACJ,cAAA,8OAAC,sMAAA,CAAA,aAAU;oBAAC,SAAQ;8BAAI;;;;;;;;;;;;;;;;;AAIhC"}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 62, "column": 0}, "map": {"version":3,"sources":["file:///Users/kimdo/Documents/GitHub/jinlee/src/app/work1/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport { Button, Box, Stack, Typography } from \"@mui/material\";\nimport Link from \"next/link\";\nimport ImageHolder from \"@/components/ImageHolder\";\n\nexport default function Work1() {\n  return (\n    <Stack>\n      <ImageHolder source=\"/images/1.jpeg\" />\n    </Stack>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AAEA;AACA;AAFA;;;;;;AAIe,SAAS;IACtB,qBACE,8OAAC,uLAAA,CAAA,QAAK;kBACJ,cAAA,8OAAC,gIAAA,CAAA,UAAW;YAAC,QAAO;;;;;;;;;;;AAG1B"}},
+    {"offset": {"line": 90, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 101, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 101, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -2,14 +2,14 @@ import Image from "next/image";
 import { Button, Box, Typography } from "@mui/material";
 import Link from "next/link";
 
-const colors = ["#FF0000", "#87CEEB", "#00FF00", "#FFA500", "#00008B"];
+const colors = ["#EB3C27", "#006CA9", "#00A4B7", "#189255", "#495E35"];
 const numButtons = colors.length;
 
 export default function Home() {
   const radius = 100; // Adjust this value to control the circle size
 
   return (
-    <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <div>
         <Typography variant="h1">Jin Lee</Typography>
       </div>
