@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Typography } from "@mui/material";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
